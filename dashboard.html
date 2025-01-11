@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Neura Bank - Dashboard</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Neura Bank</h1>
+            <nav>
+                <a href="index.html">Home</a>
+                <a href="dashboard.html" class="active">Dashboard</a>
+                <a href="transactions.html">Transactions</a>
+                <a href="loans.html">Loans</a>
+                <a href="login.html" class="btn">Logout</a>
+            </nav>
+        </div>
+    </header>
+
+    <section class="dashboard">
+        <div class="container">
+            <h2>Dashboard</h2>
+            <div class="account-info">
+                <p>Balance: <span id="balance">$0.00</span></p>
+                <p>Account Status: <span id="account-status">Active</span></p>
+            </div>
+            <div class="quick-actions">
+                <h3>Quick Actions</h3>
+                <button id="deposit-btn" class="btn">Deposit</button>
+                <button id="withdraw-btn" class="btn">Withdraw</button>
+                <button id="transfer-btn" class="btn">Transfer</button>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2023 Neura Bank. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>

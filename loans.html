@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Neura Bank - Loans</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Neura Bank</h1>
+            <nav>
+                <a href="index.html">Home</a>
+                <a href="dashboard.html">Dashboard</a>
+                <a href="transactions.html">Transactions</a>
+                <a href="loans.html" class="active">Loans</a>
+                <a href="login.html" class="btn">Logout</a>
+            </nav>
+        </div>
+    </header>
+
+    <section class="loans">
+        <div class="container">
+            <h2>Loans</h2>
+            <button id="apply-loan-btn" class="btn">Apply for Loan</button>
+            <table id="loans-table">
+                <thead>
+                    <tr>
+                        <th>Date</th>
+                        <th>Amount</th>
+                        <th>Interest Rate</th>
+                        <th>Status</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- Loans will be populated here -->
+                </tbody>
+            </table>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2023 Neura Bank. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
