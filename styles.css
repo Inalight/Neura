@@ -1,4 +1,3 @@
-/* General Styles */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -110,7 +109,6 @@ nav a.active {
     text-align: center;
 }
 
-/* Hero Section */
 .hero {
     background-color: #6200ea;
     color: white;
@@ -132,7 +130,6 @@ nav a.active {
     margin-top: 2rem;
 }
 
-/* Features Section */
 .features {
     padding: 4rem 0;
     text-align: center;
@@ -160,7 +157,6 @@ nav a.active {
     margin: 1rem 0 0;
 }
 
-/* Testimonials Section */
 .testimonials {
     padding: 4rem 0;
     text-align: center;
@@ -181,7 +177,6 @@ nav a.active {
     margin-top: 1rem;
 }
 
-/* Transactions Section */
 .transactions {
     padding: 2rem 0;
 }
@@ -203,12 +198,10 @@ th {
     color: white;
 }
 
-/* Loans Section */
 .loans {
     padding: 2rem 0;
 }
 
-/* Auth Forms */
 .auth-form {
     padding: 4rem 0;
     text-align: center;
@@ -231,7 +224,6 @@ th {
     border-radius: 4px;
 }
 
-/* Footer */
 footer {
     background-color: #333;
     color: white;
