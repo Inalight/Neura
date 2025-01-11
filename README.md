@@ -1,2 +1,2 @@
 # Neura
- Neura Bank is the future of DC Banking
+ Neura Bank is the future of DemocracyCraft Banking
